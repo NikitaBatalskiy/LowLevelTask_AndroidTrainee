@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fadeScrollbars="true"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="297dp"
+            android:layout_height="46dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:text="@string/choosing_option"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="296dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            tools:layout_editor_absoluteY="70dp">
+
+            <RadioButton
+                android:id="@+id/option1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/first_option" />
+
+            <RadioButton
+                android:id="@+id/option2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/second_option" />
+
+            <RadioButton
+                android:id="@+id/option3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/fixed_formula" />
+
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/inputNumber"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:ems="10"
+            android:hint="@string/hint"
+            android:inputType="number" />
+
+<!--        <TextView-->
+<!--            android:id="@+id/output"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="70dp"-->
+<!--            android:layout_marginLeft="70dp"-->
+<!--            android:layout_marginTop="70dp"-->
+<!--            android:layout_marginEnd="70dp"-->
+<!--            android:layout_marginRight="70dp"-->
+<!--            android:fadeScrollbars="true" />-->
+
+        <Button
+            android:id="@+id/countFibonacci"
+            android:layout_width="150dp"
+            android:layout_height="75dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="120dp"
+            android:text="@string/count_fibonacci" />
+
+    </LinearLayout>
+
+</ScrollView>

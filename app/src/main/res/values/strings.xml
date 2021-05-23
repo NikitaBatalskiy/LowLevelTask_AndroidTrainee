@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">LowLevelTask</string>
+    <string name="choosing_option">Choose the way to count:</string>
+    <string name="first_option">Recursive call (0–10 numbers)</string>
+    <string name="second_option">More effective way :) (big numbers are no problem)</string>
+    <string name="hint">Input number here</string>
+    <string name="count_fibonacci">Count Fibonacci</string>
+    <string name="back">Back</string>
+    <string name="fibonacci_output">Fibonacci output:</string>
+    <string name="fixed_formula">Fixed formula</string>
+    <string name="fibonacci_count_result">Fibonacci count result</string>
+</resources>
